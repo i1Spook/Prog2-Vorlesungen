@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,6 +20,7 @@ namespace ConsoleApp9
             Console.WriteLine($"{b5}");
             Bruch b6 = b1 / b2;
             Console.WriteLine($"{b6}");
+            Bruch b7 = b1 + 2 * b2;
 
         }
     }
@@ -69,10 +70,12 @@ namespace ConsoleApp9
         }
         //alternativ, per Lambda-Schreibweise
         //public static Bruch operator * (Bruch b1, Bruch b2) => Kuerzen(new Bruch(b1.zaehler *b2.zaehler, b1.nenner*b2.nenner));
+        //"links" wird abgebildet auf "rechts"
         public override string ToString() => $"{zaehler}/{nenner}"; //überschreibt Standard-Ausgabeform
 
         //Überschreiben = Neue Implementierung, welche bestehende ersetzt
         //Überladen = weitere Implementierung für neuen Datentyp
-       
+
+        public static implicit operator Bruch (int x) => new Bruch (x,1); //implizierte Konvertierung von int in Bruch
     }
 }
