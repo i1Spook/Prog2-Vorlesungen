@@ -1,4 +1,5 @@
-﻿using System;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,7 @@ namespace ConsoleApp11
 
             freunde.AnfuegenAmAnfang("Aaron");
             freunde.EinfuegenVor(3, "Barbara");
+            freunde.EinfuegenVor(5, "Zacharias");
             freunde.Ausgeben();
         }
     }
