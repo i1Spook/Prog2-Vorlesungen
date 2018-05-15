@@ -1,0 +1,7 @@
+C:\Users\Patrick\source\repos\DelegateUebung\DelegateUebung\bin\Debug\DelegateUebung.exe.config
+C:\Users\Patrick\source\repos\DelegateUebung\DelegateUebung\bin\Debug\DelegateUebung.exe
+C:\Users\Patrick\source\repos\DelegateUebung\DelegateUebung\bin\Debug\DelegateUebung.pdb
+C:\Users\Patrick\source\repos\DelegateUebung\DelegateUebung\obj\Debug\DelegateUebung.csprojResolveAssemblyReference.cache
+C:\Users\Patrick\source\repos\DelegateUebung\DelegateUebung\obj\Debug\DelegateUebung.csproj.CoreCompileInputs.cache
+C:\Users\Patrick\source\repos\DelegateUebung\DelegateUebung\obj\Debug\DelegateUebung.exe
+C:\Users\Patrick\source\repos\DelegateUebung\DelegateUebung\obj\Debug\DelegateUebung.pdb
