@@ -1,0 +1,7 @@
+E:\Studium\2. Semester\Prog II\Praktikum\repos\Klausur SS17 A2\Klausur SS17 A2\bin\Debug\Klausur SS17 A2.exe.config
+E:\Studium\2. Semester\Prog II\Praktikum\repos\Klausur SS17 A2\Klausur SS17 A2\bin\Debug\Klausur SS17 A2.exe
+E:\Studium\2. Semester\Prog II\Praktikum\repos\Klausur SS17 A2\Klausur SS17 A2\bin\Debug\Klausur SS17 A2.pdb
+E:\Studium\2. Semester\Prog II\Praktikum\repos\Klausur SS17 A2\Klausur SS17 A2\obj\Debug\Klausur SS17 A2.csprojResolveAssemblyReference.cache
+E:\Studium\2. Semester\Prog II\Praktikum\repos\Klausur SS17 A2\Klausur SS17 A2\obj\Debug\Klausur SS17 A2.csproj.CoreCompileInputs.cache
+E:\Studium\2. Semester\Prog II\Praktikum\repos\Klausur SS17 A2\Klausur SS17 A2\obj\Debug\Klausur SS17 A2.exe
+E:\Studium\2. Semester\Prog II\Praktikum\repos\Klausur SS17 A2\Klausur SS17 A2\obj\Debug\Klausur SS17 A2.pdb
