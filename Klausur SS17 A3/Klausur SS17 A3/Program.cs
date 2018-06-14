@@ -18,13 +18,16 @@ namespace Klausur_SS17_A3
             sortiment.Hinzufügen("Kaffee", 3);
 
             //Anzahl <= 5
-            Liste bestellListe = sortiment.Bestellung(/*Hier Ihre Implementierung mittels anonymer Funktion (oder alternativ Lambda‐Ausdruck):*/);
+            Liste bestellListe = sortiment.Bestellung(Auswahlmethode meineAuswahlmethode = delegate (LElement neu){
+            
+            }/*Hier Ihre Implementierung
+            mittels anonymer Funktion (oder alternativ Lambda‐Ausdruck):*/);
             // bestellListe enthält nun (nur) die Einträge mit den Artikelnamen „Kaffee“ und „Zucker“   
 
         }
     }
     // Hier Ihre Deklaration des Delegate‐Typs:
-    delegate bool Auswahlmethode(int x);
+    delegate bool Auswahlmethode(neu.anzahl);
     
     class Liste
     {
@@ -81,7 +84,20 @@ namespace Klausur_SS17_A3
         //Erzeugung einer Liste aller Artikel unterhalb der Mindestanzahl
         public void Bestellung(Auswahlmethode Auswahl)
         {
+            Liste Bestellliste = new Liste();
             
+            //Alte Liste durchsuchen 
+            
+            if(neu != null)
+                neu = Bestellliste.root;
+            while(neu.next != null)
+            {
+                if(Auswahl())
+                {
+                    neu.next = root;
+                    root = neu;
+                }
+            }
             //??????
         }
     }
